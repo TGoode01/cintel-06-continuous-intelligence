@@ -156,3 +156,14 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Modification Summary
+
+### What I Changed
+I added a new signal called **success_rate** to calculate the percentage of successful requests.
+
+### Why I Made the Change
+This helps give a clearer picture of system performance beyond just error rate by showing how often requests are successful.
+
+### What I Observed
+After running the project, the new **success_rate** column appeared in the output file and made it easier to understand overall system health.
